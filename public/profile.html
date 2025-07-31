@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-indigo-600">📚 My Book Shelf</h1>
+      <ul class="flex gap-6 text-sm font-medium">
+        <li><a href="index.html" class="hover:text-indigo-500">Home</a></li>
+        <li><a href="shelf.html" class="hover:text-indigo-500">Shelf</a></li>
+        <li><a href="search.html" class="hover:text-indigo-500">Search</a></li>
+        <li><a href="profile.html" class="hover:text-indigo-500">Profile</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Profile Section -->
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <div class="bg-white shadow rounded p-6 text-center">
+      <img src="https://via.placeholder.com/100" alt="Avatar" class="mx-auto mb-4 rounded-full">
+      <h2 class="text-2xl font-bold">Muz</h2>
+      <p class="text-gray-600 mb-4">📖 Goal: Read 20 books this year</p>
+      <p class="text-sm text-gray-700">“Books are a uniquely portable magic.” – Stephen King</p>
+    </div>
+  </section>
+
+  <!-- Favorite Books -->
+  <section class="max-w-6xl mx-auto px-4 py-12">
+    <h3 class="text-xl font-semibold mb-6">⭐ Favorite Books</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <!-- Book Card -->
+      <div class="bg-white shadow rounded p-4">
+        <img src="https://via.placeholder.com/150x220" alt="Book Cover" class="mb-4 rounded">
+        <h4 class="font-bold text-lg">The Hobbit</h4>
+        <p class="text-sm text-gray-600">by J.R.R. Tolkien</p>
+      </div>
+      <div class="bg-white shadow rounded p-4">
+        <img src="https://via.placeholder.com/150x220" alt="Book Cover" class="mb-4 rounded">
+        <h4 class="font-bold text-lg">Harry Potter</h4>
+        <p class="text-sm text-gray-600">by J.K. Rowling</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t py-6 text-center text-sm text-gray-500">
+    © 2025 My Book Shelf. All rights reserved.
+  </footer>
+
+</body>
+</html>
