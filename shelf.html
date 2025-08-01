@@ -24,31 +24,8 @@
   <!-- Shelf Section -->
   <section class="max-w-6xl mx-auto px-4 py-12">
     <h2 class="text-3xl font-bold mb-6">📖 My Shelf</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-      
-      <!-- Book Card -->
-      <div class="bg-white shadow rounded p-4">
-        <img src="https://via.placeholder.com/150x220" alt="Book Cover" class="mb-4 rounded">
-        <h3 class="font-bold text-lg">The Alchemist</h3>
-        <p class="text-sm text-gray-600">by Paulo Coelho</p>
-        <p class="text-xs text-gray-500 mt-1">Status: Read</p>
-      </div>
-
-      <!-- Repeat for more books -->
-      <div class="bg-white shadow rounded p-4">
-        <img src="https://via.placeholder.com/150x220" alt="Book Cover" class="mb-4 rounded">
-        <h3 class="font-bold text-lg">Atomic Habits</h3>
-        <p class="text-sm text-gray-600">by James Clear</p>
-        <p class="text-xs text-gray-500 mt-1">Status: Reading</p>
-      </div>
-
-      <div class="bg-white shadow rounded p-4">
-        <img src="https://via.placeholder.com/150x220" alt="Book Cover" class="mb-4 rounded">
-        <h3 class="font-bold text-lg">Deep Work</h3>
-        <p class="text-sm text-gray-600">by Cal Newport</p>
-        <p class="text-xs text-gray-500 mt-1">Status: Wishlist</p>
-      </div>
-
+    <div id="book-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <!-- Books will be loaded here -->
     </div>
   </section>
 
@@ -57,5 +34,6 @@
     © 2025 My Book Shelf. All rights reserved.
   </footer>
 
+  <script src="books.js"></script>
 </body>
 </html>
